@@ -1,0 +1,53 @@
+body{
+  overflow-x: hidden !important;
+  width: 100%;
+  @media screen and (max-width: 450px) {
+    overflow-x: hidden !important;
+  }
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.activated{
+  border: 1px solid #999;
+}
+.alert{
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+// Home styling
+@import 'home';
+
+// Packages
+@import 'packages';
+
+// About
+@import 'about';
+
+// Equipments
+@import 'equipments';
+
+// Gallery
+@import 'gallery';
+
+// Join Us
+@import 'joinus';
+
+// Footer
+@import 'footer';
